@@ -1,0 +1,34 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Die Spalte "[dbo].[Address].[CompanyId]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+       Die Spalte "[dbo].[Address].[EmployeeId]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+
+** Benutzeraktionen
+     Löschen
+       unbenannte Einschränkungen auf [dbo].[Address] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[Address] (Fremdschlüssel)
+     Ändern
+       [dbo].[Address] (Tabelle)
+     Erstellen
+       [dbo].[AddressToEmployee] (Tabelle)
+       [dbo].[AdressToCompany] (Tabelle)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[AddressToEmployee] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[AddressToEmployee] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[AdressToCompany] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[AdressToCompany] (Fremdschlüssel)
+       [dbo].[viAddressToEmployee] (Sicht)
+       [dbo].[viAdressToCompany] (Sicht)
+
+** Unterstützende Aktionen
+     Aktualisieren
+       [dbo].[viAddress] (Sicht)
+
+Die Spalte "[dbo].[Address].[CompanyId]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+Die Spalte "[dbo].[Address].[EmployeeId]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+
