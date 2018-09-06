@@ -59,6 +59,7 @@
     <Folder Include="Properties" />
     <Folder Include="table" />
     <Folder Include="view" />
+    <Folder Include="storedProcedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="table\Address.sql" />
@@ -73,5 +74,7 @@
     <Build Include="table\AddressToEmployee.sql" />
     <Build Include="view\viAddressToCompany.sql" />
     <Build Include="view\viAddressToEmployee.sql" />
+    <Build Include="storedProcedures\Update.sql" />
+    <Build Include="storedProcedures\Insert.sql" />
   </ItemGroup>
 </Project>
