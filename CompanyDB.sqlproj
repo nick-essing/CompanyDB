@@ -69,5 +69,9 @@
     <Build Include="view\viEmployee.sql" />
     <Build Include="view\viAddress.sql" />
     <Build Include="view\viDepartment.sql" />
+    <Build Include="table\AddressToCompany.sql" />
+    <Build Include="table\AddressToEmployee.sql" />
+    <Build Include="view\viAddressToCompany.sql" />
+    <Build Include="view\viAddressToEmployee.sql" />
   </ItemGroup>
 </Project>
