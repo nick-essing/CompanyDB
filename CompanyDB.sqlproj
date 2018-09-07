@@ -57,21 +57,40 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
-    <Folder Include="table" />
-    <Folder Include="view" />
+    <Folder Include="tables" />
+    <Folder Include="views" />
+    <Folder Include="storedProcedures" />
+    <Folder Include="UserDefinedFuctions" />
+    <Folder Include="storedProcedures\InsertOrUpdate" />
+    <Folder Include="storedProcedures\Delete" />
+    <Folder Include="storedProcedures\AddForeignKey" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="table\Address.sql" />
-    <Build Include="view\viCompany.sql" />
-    <Build Include="table\Company.sql" />
-    <Build Include="table\Employee.sql" />
-    <Build Include="table\Department.sql" />
-    <Build Include="view\viEmployee.sql" />
-    <Build Include="view\viAddress.sql" />
-    <Build Include="view\viDepartment.sql" />
-    <Build Include="table\AddressToCompany.sql" />
-    <Build Include="table\AddressToEmployee.sql" />
-    <Build Include="view\viAddressToCompany.sql" />
-    <Build Include="view\viAddressToEmployee.sql" />
+    <Build Include="tables\Address.sql" />
+    <Build Include="views\viCompany.sql" />
+    <Build Include="tables\Company.sql" />
+    <Build Include="tables\Employee.sql" />
+    <Build Include="tables\Department.sql" />
+    <Build Include="views\viEmployee.sql" />
+    <Build Include="views\viAddress.sql" />
+    <Build Include="views\viDepartment.sql" />
+    <Build Include="tables\AddressToEmployee.sql" />
+    <Build Include="views\viAddressToEmployee.sql" />
+    <Build Include="UserDefinedFuctions\fnGender.sql" />
+    <Build Include="storedProcedures\InsertOrUpdate\spInsertOrUpdateEmployee.sql" />
+    <Build Include="storedProcedures\InsertOrUpdate\spInsertOrUpdateDepartment.sql" />
+    <Build Include="storedProcedures\InsertOrUpdate\spInsertOrUpdateCompany.sql" />
+    <Build Include="storedProcedures\InsertOrUpdate\spInsertOrUpdateAddress.sql" />
+    <Build Include="storedProcedures\Delete\spDeleteAddress.sql" />
+    <Build Include="storedProcedures\Delete\spDeleteCompany.sql" />
+    <Build Include="storedProcedures\Delete\spDeleteDepartment.sql" />
+    <Build Include="storedProcedures\Delete\spDeleteEmployee.sql" />
+    <Build Include="storedProcedures\AddForeignKey\spAddEmployeesToDepartment.sql" />
+    <Build Include="storedProcedures\AddForeignKey\spAddManagerFromDepartmentsToEmpolyee.sql" />
+    <Build Include="storedProcedures\AddForeignKey\spAddDepartmentsToCompany.sql" />
+    <Build Include="storedProcedures\AddForeignKey\spAddAddressesToCompany.sql" />
+    <Build Include="storedProcedures\AddForeignKey\spAddEmployeesToAddresses.sql" />
+    <Build Include="views\viEmployeeAddress.sql" />
+    <Build Include="views\viCompanyAddress.sql" />
   </ItemGroup>
 </Project>

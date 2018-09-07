@@ -11,9 +11,9 @@ C:\Dev\SQL\CompanyDB\CompanyDB\bin\Debug\CompanyDB.dacpac
 C:\Dev\SQL\CompanyDB\CompanyDB\bin\Debug\Database1.dll
 C:\Dev\SQL\CompanyDB\CompanyDB\bin\Debug\Database1.pdb
 C:\Dev\SQL\CompanyDB\CompanyDB\obj\Debug\CompanyDB.sqlprojAssemblyReference.cache
+C:\Dev\SQL\CompanyDB\CompanyDB\obj\Debug\Database1.dll
+C:\Dev\SQL\CompanyDB\CompanyDB\obj\Debug\Database1.pdb
 C:\Dev\SQL\CompanyDB\CompanyDB\obj\Debug\Model.xml
 C:\Dev\SQL\CompanyDB\CompanyDB\obj\Debug\refactor.xml
 C:\Dev\SQL\CompanyDB\CompanyDB\obj\Debug\postdeploy.sql
 C:\Dev\SQL\CompanyDB\CompanyDB\obj\Debug\predeploy.sql
-C:\Dev\SQL\CompanyDB\CompanyDB\obj\Debug\Database1.dll
-C:\Dev\SQL\CompanyDB\CompanyDB\obj\Debug\Database1.pdb

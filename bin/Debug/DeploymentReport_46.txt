@@ -1,0 +1,22 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Ändern
+       [dbo].[spAddAddressToCompany] (Prozedur)
+       [dbo].[spAddDepartmentsToCompany] (Prozedur)
+       [dbo].[spAddEmployeesToDepartment] (Prozedur)
+       [dbo].[spAddManagerFromDepartmentsToEmployee] (Prozedur)
+       [dbo].[spInsertOrUpdateAddress] (Prozedur)
+       [dbo].[spInsertOrUpdateCompany] (Prozedur)
+       [dbo].[spInsertOrUpdateDepartment] (Prozedur)
+       [dbo].[spInsertOrUpdateEmployee] (Prozedur)
+
+** Unterstützende Aktionen

@@ -1,0 +1,44 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       [dbo].[Address]
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Die Spalte "[dbo].[Address].[Postcode_City]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+       Die Spalte "[dbo].[Address].[Street_Streetnumber]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+
+** Benutzeraktionen
+     Löschen
+       unbenannte Einschränkungen auf [dbo].[Address] (DEFAULT-Einschränkung)
+       unbenannte Einschränkungen auf [dbo].[AddressToEmployee] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[Address] (Fremdschlüssel)
+     Tabellenneuerstellung
+       [dbo].[Address] (Tabelle)
+     Ändern
+       [dbo].[AddressToEmployee] (Tabelle)
+       [dbo].[viAddress] (Sicht)
+       [dbo].[fnGender] (Funktion)
+       [dbo].[spInsertOrUpdateAddress] (Prozedur)
+       [dbo].[spInsertOrUpdateCompany] (Prozedur)
+       [dbo].[spInsertOrUpdateDepartment] (Prozedur)
+       [dbo].[spInsertOrUpdateEmployee] (Prozedur)
+     Erstellen
+       [dbo].[viCompanyAddress] (Sicht)
+       [dbo].[viEmployeeAddress] (Sicht)
+
+** Unterstützende Aktionen
+     Erstellen
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[AddressToEmployee] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Address] (Fremdschlüssel)
+     Aktualisieren
+       [dbo].[viAddressToEmployee] (Sicht)
+
+Die Spalte "[dbo].[Address].[Postcode_City]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+Die Spalte "[dbo].[Address].[Street_Streetnumber]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+Wenn diese Bereitstellung ausgeführt wird, führen Änderungen an [dbo].[Address] möglicherweise zu Laufzeitfehlern in [dbo].[spAddManagerFromDepartmentsToEmployee].
+Wenn diese Bereitstellung ausgeführt wird, führen Änderungen an [dbo].[Address] möglicherweise zu Laufzeitfehlern in [dbo].[spDeleteAddress].
+Wenn diese Bereitstellung ausgeführt wird, führen Änderungen an [dbo].[AddressToEmployee] möglicherweise zu Laufzeitfehlern in [dbo].[spAddManagerFromDepartmentsToEmployee].
+Wenn diese Bereitstellung ausgeführt wird, führen Änderungen an [dbo].[viAddress] möglicherweise zu Laufzeitfehlern in [dbo].[spDeleteAddress].
+
