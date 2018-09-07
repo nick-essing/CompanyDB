@@ -1,0 +1,23 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Löschen
+       unbenannte Einschränkungen auf [dbo].[Employee] (Fremdschlüssel)
+     Ändern
+       [dbo].[Employee] (Tabelle)
+
+** Unterstützende Aktionen
+     Erstellen
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Employee] (Fremdschlüssel)
+     Aktualisieren
+       [dbo].[viEmployee] (Sicht)
+       [dbo].[spDeleteEmployee] (Prozedur)
+       [dbo].[spInsertOrUpdateEmployee] (Prozedur)

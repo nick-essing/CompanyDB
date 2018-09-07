@@ -1,0 +1,77 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       [dbo].[Address]
+       [dbo].[AddressToEmployee]
+       [dbo].[AdressToCompany]
+       [dbo].[Company]
+       [dbo].[department]
+       [dbo].[Employee]
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Die Spalte "[dbo].[AddressToEmployee].[AdressId]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+       Die Spalte "[dbo].[AddressToEmployee].[Id]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+       Die Spalte "[dbo].[AddressToEmployee].[AddressId]" in der Tabelle "[dbo].[AddressToEmployee]" muss hinzugefügt werden,
+         besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das
+         ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so
+         kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als
+         Bereitstellungsoption aktivieren.
+       Die Spalte "[dbo].[AdressToCompany].[AdressId]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+       Die Spalte "[dbo].[AdressToCompany].[Id]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+       Die Spalte "[dbo].[AdressToCompany].[AddressId]" in der Tabelle "[dbo].[AdressToCompany]" muss hinzugefügt werden,
+         besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das
+         ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so
+         kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als
+         Bereitstellungsoption aktivieren.
+
+** Benutzeraktionen
+     Löschen
+       unbenannte Einschränkungen auf [dbo].[Address] (DEFAULT-Einschränkung)
+       unbenannte Einschränkungen auf [dbo].[Company] (DEFAULT-Einschränkung)
+       unbenannte Einschränkungen auf [dbo].[department] (DEFAULT-Einschränkung)
+       unbenannte Einschränkungen auf [dbo].[Employee] (DEFAULT-Einschränkung)
+       unbenannte Einschränkungen auf [dbo].[AddressToEmployee] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[AdressToCompany] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[AddressToEmployee] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[AdressToCompany] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[department] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[department] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[Employee] (Fremdschlüssel)
+     Tabellenneuerstellung
+       [dbo].[Address] (Tabelle)
+       [dbo].[AddressToEmployee] (Tabelle)
+       [dbo].[AdressToCompany] (Tabelle)
+       [dbo].[Company] (Tabelle)
+       [dbo].[department] (Tabelle)
+       [dbo].[Employee] (Tabelle)
+     Erstellen
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[AddressToEmployee] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[AdressToCompany] (Fremdschlüssel)
+       [dbo].[spInsert] (Prozedur)
+       [dbo].[spUpdate] (Prozedur)
+     Ändern
+       [dbo].[viAddressToEmployee] (Sicht)
+       [dbo].[viAdressToCompany] (Sicht)
+
+** Unterstützende Aktionen
+     Erstellen
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[AddressToEmployee] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[AdressToCompany] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[department] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[department] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Employee] (Fremdschlüssel)
+     Aktualisieren
+       [dbo].[viAddress] (Sicht)
+       [dbo].[viCompany] (Sicht)
+       [dbo].[viDepartment] (Sicht)
+       [dbo].[viEmployee] (Sicht)
+
+Die Spalte "[dbo].[AddressToEmployee].[AdressId]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+Die Spalte "[dbo].[AddressToEmployee].[Id]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+Die Spalte "[dbo].[AddressToEmployee].[AddressId]" in der Tabelle "[dbo].[AddressToEmployee]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Die Spalte "[dbo].[AdressToCompany].[AdressId]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+Die Spalte "[dbo].[AdressToCompany].[Id]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+Die Spalte "[dbo].[AdressToCompany].[AddressId]" in der Tabelle "[dbo].[AdressToCompany]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+

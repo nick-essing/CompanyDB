@@ -1,0 +1,46 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       [dbo].[Address]
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Die Spalte "[dbo].[Address].[Postcode_City]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+       Die Spalte "[dbo].[Address].[Street_Streetnumber]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+
+** Benutzeraktionen
+     Löschen
+       unbenannte Einschränkungen auf [dbo].[Address] (DEFAULT-Einschränkung)
+       unbenannte Einschränkungen auf [dbo].[AddressToEmployee] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[Address] (Fremdschlüssel)
+     Tabellenneuerstellung
+       [dbo].[Address] (Tabelle)
+     Ändern
+       [dbo].[viAddress] (Sicht)
+       [dbo].[fnGender] (Funktion)
+       [dbo].[spDeleteAddress] (Prozedur)
+       [dbo].[spInsertOrUpdateAddress] (Prozedur)
+       [dbo].[spAddAddressToCompany] (Prozedur)
+       [dbo].[spDeleteCompany] (Prozedur)
+       [dbo].[spDeleteDepartment] (Prozedur)
+       [dbo].[spDeleteEmployee] (Prozedur)
+       [dbo].[spInsertOrUpdateCompany] (Prozedur)
+       [dbo].[spInsertOrUpdateDepartment] (Prozedur)
+       [dbo].[spInsertOrUpdateEmployee] (Prozedur)
+     Erstellen
+       [dbo].[viCompanyAddress] (Sicht)
+       [dbo].[viEmployeeAddress] (Sicht)
+       [dbo].[spAddDepartmentsToCompany] (Prozedur)
+       [dbo].[spAddEmployeesToAddresses] (Prozedur)
+       [dbo].[spAddEmployeesToDepartment] (Prozedur)
+       [dbo].[spAddManagerFromDepartmentsToEmployee] (Prozedur)
+
+** Unterstützende Aktionen
+     Erstellen
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[AddressToEmployee] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[Address] (Fremdschlüssel)
+
+Die Spalte "[dbo].[Address].[Postcode_City]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+Die Spalte "[dbo].[Address].[Street_Streetnumber]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+
