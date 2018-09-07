@@ -3,13 +3,13 @@
 	@name varchar(30)
 AS
 BEGIN
-	declare @DBId int
-	Set  @DBId = (select Id FROM Company WHERE Id = @Id)
-	if (@DBId is null) 
+	declare @InsertOrUpdateCompanyId int
+	Set  @InsertOrUpdateCompanyId = (select Id FROM Company WHERE Id = @Id)
+	if (@InsertOrUpdateCompanyId is null) 
 	begin
 		INSERT INTO [dbo].[Company]([Name])
 		VALUES (@name)
-		Set @DBId = @@IDENTITY
+		Set @InsertOrUpdateCompanyId = @@IDENTITY
 	end
 	else
 	begin
@@ -17,6 +17,6 @@ BEGIN
 		SET [Name] = @name
 		WHERE Id = @Id
 	end
-	RETURN @DBId
+	RETURN @InsertOrUpdateCompanyId
 END
 GO

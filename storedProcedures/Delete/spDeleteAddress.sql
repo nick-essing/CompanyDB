@@ -2,15 +2,15 @@
 	@Id int
 AS
 BEGIN
-	declare @DBId int
-	Set  @DBId = (select Id FROM viAddress WHERE Id = @Id)
+	declare @DeleteAddressId int
+	Set  @DeleteAddressId = (select Id FROM viAddress WHERE Id = @Id)
 
-	if (@DBId is not null) 
+	if (@DeleteAddressId is not null) 
 	begin
 		UPDATE [dbo].[Address]
 		SET [DeleteTime] = GETDATE()
 		WHERE Id = @Id
 	end
-	RETURN @DBId
+	RETURN @DeleteAddressId
 END
 GO

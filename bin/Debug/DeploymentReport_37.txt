@@ -1,0 +1,30 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       [dbo].[AddressToEmployee]
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Löschen
+       unbenannte Einschränkungen auf [dbo].[AddressToEmployee] (DEFAULT-Einschränkung)
+       unbenannte Einschränkungen auf [dbo].[AddressToEmployee] (Fremdschlüssel)
+       unbenannte Einschränkungen auf [dbo].[AddressToEmployee] (Fremdschlüssel)
+     Tabellenneuerstellung
+       [dbo].[AddressToEmployee] (Tabelle)
+
+** Unterstützende Aktionen
+     Erstellen
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[AddressToEmployee] (Fremdschlüssel)
+       Fremdschlüssel: unbenannte Einschränkungen auf [dbo].[AddressToEmployee] (Fremdschlüssel)
+     Aktualisieren
+       [dbo].[viAddressToEmployee] (Sicht)
+       [dbo].[viEmployeeAddress] (Sicht)
+       [dbo].[spAddAddressToCompany] (Prozedur)
+       [dbo].[spAddDepartmentsToCompany] (Prozedur)
+       [dbo].[spAddEmployeesToAddresses] (Prozedur)
+       [dbo].[spAddEmployeesToDepartment] (Prozedur)
+       [dbo].[spAddManagerFromDepartmentsToEmployee] (Prozedur)

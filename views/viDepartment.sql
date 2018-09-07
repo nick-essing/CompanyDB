@@ -1,2 +1,3 @@
 ﻿CREATE VIEW [dbo].[viDepartment]
-	AS SELECT Id, Name FROM [Department] WHERE DeleteTime IS Null
+	AS
+	SELECT Id, Name FROM [Department] WHERE DeleteTime IS Null

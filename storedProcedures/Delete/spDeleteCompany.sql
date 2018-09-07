@@ -2,14 +2,14 @@
 	@Id int
 AS
 BEGIN
-	declare @DBId int
-	Set  @DBId = (select Id FROM viCompany WHERE Id = @Id)
-	if (@DBId is not null) 
+	declare @DeleteCompanyId int
+	Set  @DeleteCompanyId = (select Id FROM viCompany WHERE Id = @Id)
+	if (@DeleteCompanyId is not null) 
 	begin
 		UPDATE [dbo].[Company]
 		SET [DeleteTime] = GETDATE()
 		WHERE Id = @Id
 	end
-	RETURN @DBId
+	RETURN @DeleteCompanyId
 END
 GO

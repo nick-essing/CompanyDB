@@ -1,2 +1,3 @@
 ﻿CREATE VIEW [dbo].[viAddressToEmployee]
-	AS SELECT AddressId, EmployeeId FROM [AddressToEmployee]
+	AS 
+	SELECT AddressId, EmployeeId FROM [AddressToEmployee]

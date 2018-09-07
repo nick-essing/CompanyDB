@@ -89,7 +89,7 @@
     <Build Include="storedProcedures\AddForeignKey\spAddManagerFromDepartmentsToEmpolyee.sql" />
     <Build Include="storedProcedures\AddForeignKey\spAddDepartmentsToCompany.sql" />
     <Build Include="storedProcedures\AddForeignKey\spAddAddressesToCompany.sql" />
-    <Build Include="storedProcedures\AddForeignKey\AddEmployeesToAddresses.sql" />
+    <Build Include="storedProcedures\AddForeignKey\spAddEmployeesToAddresses.sql" />
     <Build Include="views\viEmployeeAddress.sql" />
     <Build Include="views\viCompanyAddress.sql" />
   </ItemGroup>

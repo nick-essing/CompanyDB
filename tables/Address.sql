@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[Address]
 (
 	[Id] INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
-	[Postcode] NVARCHAR(256) NULL, 
+	[Postcode] INT NULL, 
 	[City] NVARCHAR(256) NULL, 
     [Street] NVARCHAR(256) NULL,
 	[Country] NVARCHAR(256) NULL,
